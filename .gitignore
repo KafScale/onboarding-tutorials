@@ -22,3 +22,161 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+############################################
+# OS / Editor noise
+############################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+############################################
+# Java / Maven
+############################################
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+dependency-reduced-pom.xml
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+############################################
+# Gradle (just in case)
+############################################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+############################################
+# Node / JavaScript
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.out/
+coverage/
+
+############################################
+# Python
+############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.wheels/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+############################################
+# Jupyter / Data science
+############################################
+.ipynb_checkpoints/
+*.ipynb
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+
+############################################
+# Protobuf / gRPC
+############################################
+*.pb.go
+*.pb.cc
+*.pb.h
+*_pb2.py
+*_pb2_grpc.py
+
+############################################
+# Logs, dumps, and large data
+############################################
+*.log
+*.tmp
+*.dump
+*.bak
+*.old
+*.sqlite
+*.db
+*.csv
+*.tsv
+*.parquet
+*.avro
+
+############################################
+# Containers / infrastructure
+############################################
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.tfstate
+*.tfstate.*
+.kube/
+helm/charts/
+
+############################################
+# CI artifacts
+############################################
+reports/
+artifacts/
+coverage/
+
+############################################
+# GitHub / tooling
+############################################
+.github/workflows/*.log
+
+############################################
+# Prevent accidental large binaries
+############################################
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.iso
+*.dmg
+*.exe
+*.msi
+*.bin
+*.pkg
