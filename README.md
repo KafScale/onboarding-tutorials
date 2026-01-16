@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b14445e5-58cd-4364-bbdd-cf6a8250896a" />
+
 # KafScale Onboarding Tutorials
 
 This repository contains a complete onboarding and tutorial suite for KafScale. It includes a step-by-step developer guide, runnable demos (Java, Spring Boot, Flink, Spark, and Node.js), a claims registry for technical accuracy, and publishing workflows for turning the tutorial into external content.
